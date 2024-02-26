@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: auto;
+    height: auto;
+
+
+}
+/**menu do inicio**/
+.logo{
+    width: 100px;
+    
+}
+.heder,
+.paginas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.heder{
+    background-color: var(--color-dark2);
+    box-shadow: 1px 1px 4px black;
+    height: 6em;
+    
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.paginas{
+    gap: 3em;
+    z-index: 1;
+    
+
+}
+.paginas a{
+text-decoration: none;
+color: var(--color-dark5);
+transition: 1s;
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+}
+.inicio{
+    background-color: var(--color-dark4);
+
+   
+    
+}
+.inicio>h1{
+    background-color: #0D0D0D;
+    color: #EAF205;
+    width: 44vh;
+    text-align: center;
+   
+
+}
+.botão{
+    background-color: transparent;
+    border: none;
+    color: var(--color-dark5);
+    cursor: pointer;
+    display: none;
+
+}
+@media (max-width: 768px) { 
+    .botão{
+        display: block;
+    }
+    
+
+    
+    
+    .paginas{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-dark2);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+
+
+    }
+    .logo{
+        width:54px;
+        
+    }
+ 
+    
+    
+   
+}
+@keyframes showSidebar {
+from{margin-left: -100vw;}
+ top{margin-left: -10vw;} 
+}
+/** parte inicial do site**/
+.header-bottom-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+.header-bottom-side-left{
+    height: 100%;
+    flex-basis: 50%;
+
+}
+.header-bottom-side-left h2{
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+.header-bottom-side-left p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.header-bottom-side-left button{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 2s;
+}
+.header-bottom-side-left button:hover{
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.header-bottom-side-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-bottom-side-right img{
+    width: 115%;
+    
+}
