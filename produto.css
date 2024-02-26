@@ -1,0 +1,90 @@
+/** imagem**/
+.container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
+/** imagem**/
+/** texto**/
+.right-side{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.right-side h6{
+    color: blue;
+}
+.right-side h1{
+
+}
+.right-side p{
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 14px;
+
+}
+.content{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.prices{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.off{
+    font-size: 12px;
+    color: #ccc;
+}
+.opitions{
+    display: flex;
+    gap: 20px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #cccccc49;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.amount span{
+    font-weight: 700;
+    font-size: 12px;
+}
+.minus, .plus{
+    cursor: pointer;
+}
+
+.buttom{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(26,100%,55%);
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 15px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+
+
+
