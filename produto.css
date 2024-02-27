@@ -160,7 +160,7 @@ h1 {
 }
 
 .price {
-    font-size: 18px;
+    font-size: 29px;
     margin-bottom: 10px;
 }
 
@@ -191,16 +191,37 @@ h1 {
     .container {
         display: inline;
         max-width: 300px;
+        margin: auto;
     }
     .thumbnails{
-        display: grid;
+        display:grid ;
         grid-template-columns: repeat(2,2fr);
     }
     .main-image{
-        max-width: 150px;
+        max-width: 300px;
     }
     .details{
-        max-width: 150px;
+        max-width: 300px;
+        margin: auto;
+    }
+    .buy-button {
+        gap: 30px;
+        margin-left: 50px;
+    }
+    .dim{
+        margin-left: 15px;
+    }
+    h1{
+        margin: auto;
+        margin-top: 15px;
+
+    }
+    .details .esp{
+        margin: auto;
+    }
+    .price{
+        margin-top: 15px;
+        margin-bottom: 0;
     }
 }
 /**produto**/
