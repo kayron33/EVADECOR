@@ -1,81 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produto</title>
     <link rel="stylesheet" href="produto.css">
+    
 </head>
 <body>
-    <main>
 
-        <section>
-            <div class="container">
-                <div class="content">
-                    <div class="slides">
-                        <input type="radio" name="slide" id="slide1">
-                        <input type="radio" name="slide" id="slide2">
-                        <input type="radio" name="slide" id="slide3">
-                        <input type="radio" name="slide" id="slide4">
-                        <input type="radio" name="slide" id="slide5">
+    <div class="heder" id="header">
+        <button onclick="toogleSidebar()" class="botão">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+   <div class="logo_logo">
+    <img src="imagens/JPEG RERAL cortada.jpg" class="logo" alt="logo nd">
+   </div>
+<div class="paginas" id="paginas">
+    <button onclick="toogleSidebar()" class="botão">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+    </button>
+    <a href="index.html" class="ativo">Home</a>
+    <a href="veiculos.html">Peças </a>
+    <a href="localização.html">Localização</a>
+    <a href="contato.html">Contato</a>
+</div>
+    </div>
 
-                        <div class="slide">
-
-                            <img src="imagens/2134 editada.jpeg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="imagens/icones edita  110x32.jpeg" alt="">
-
-                        </div>
-                        <div class="slide">
-                            <img src="imagens/icones edita aapp story.jpeg" alt="">
-
-                        </div>
-                        <div class="slide">
-                            <img src="imagens/imagem da eva decor editada 300px.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="imagens/mesa de decoração editada.jpeg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="imagens/objetos de decoração editada.jpg" alt="">
-                        </div>
-                        <div class="navigation">
-                            <label for="slide1">teste</label>
-                            <label for="slide2">teste</label>
-                            <label for="slide3">teste</label>
-                            <label for="slide4">teste</label>
-                            <label for="slide5">teste</label>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="right-side">
-                    <div class="content">
-                        <h6>Sua Sala</h6>
-                        <h1> fall limited edition</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloremque aspernatur obcaecati doloribus consequatur? Quisquam, fugit vero. Ratione at illum repudiandae, enim, eligendi nam hic incidunt dolorem vel voluptates corporis!</p>
-                        <div class="prices">
-                            <span class="price"> R$125,00</span>
-                            <span class="off"> desconto:</span>
-                        </div>
-                        <div class="opitions">
-                            <div class="amount">
-                                <div class="minus">
-                                    <img src="imagens/arrow-bar-left.svg" alt="">
-                                </div>
-                                <span>0</span>
-                                <div class="plus">
-                                    <img src="imagens/arrow-bar-right.svg" alt="">
-                                </div>
-                            </div>
-                            <a class="buttom" href="#">COMPRAR</a>
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="main-image">
+            <img id="main-img" src="imagens/2134 editada.jpeg" alt="Imagem Principal">
+            <div class="thumbnails">
+                <img src="imagens/2134 editada 300px.jpeg" alt="Miniatura 1">
+                <img src="imagens/download 312312  300px.jpg" alt="Miniatura 2">
+                <img src="imagens/imagem da eva decor editada 300px.jpg" alt="Miniatura 3">
+                <img src="imagens/imagem da eva decor editada 300px.jpg" alt="Miniatura 3">
+                
+                <!-- Adicione mais miniaturas conforme necessário -->
             </div>
-        </section>
-    </main>
+        </div>
+        
+        
+        
+        <div class="details">
+            <h1>JARRO PARA MESA</h1>
+            <p>Um jarro especial da suecia vindo para você cliente</p>
+            <div class="dim">
+                <p class="price">R$ 300,00</p>
+                <span>10% a vista</span>
+            </div>
+            <a href="index.html"><button class="buy-button">Comprar</button></a>
+        </div>
     
+</div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
