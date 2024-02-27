@@ -118,7 +118,7 @@ from{margin-left: -100vw;}
 }
 
 .main-image{
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.425);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.233);
     position: initial;
 }
 
@@ -199,6 +199,7 @@ h1 {
     }
     .main-image{
         max-width: 300px;
+        margin: auto;
     }
     .details{
         max-width: 300px;
@@ -225,5 +226,75 @@ h1 {
     }
 }
 /**produto**/
+/** footer**/
 
+footer{
+    background-color: black;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 4rem 1rem;
+    gap: 15rem;
+    margin: auto;
+}
+.dowload-opitions>*{
+    margin: 1rem 0;
+
+}
+.dowload-opition>p:first-child{
+    font-weight: bold;
+    color: white;
+}
+.dowload-opitions>div{
+    display: flex;
+}
+.dowload-opitions>div img{
+    width: 180px;
+}
+.logo-footer{
+    text-align: center;
+}
+.links-footer h3{
+    color: white;
+    margin-bottom: 0.8em;
+
+}
+.links-footer ul{
+    list-style: none;
+}
+
+.links-footer ul li{
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.copyright{
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    .footer-content{
+        display: inline;
+        font-size: 0.8rem;
+
+    }
+    .footer-content>div{
+        padding: 1rem;
+    }
+    .dowload-opition{
+        display: inline;
+    }
+    .dowload-opition>div img{
+        width: 120px;
+    }
+    .copyright{
+        font-size: 0.8rem;
+    }
+}
+
+/** footer**/
 
