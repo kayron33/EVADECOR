@@ -237,17 +237,25 @@ main{
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
+    border: 2px solid #937A52 ;
+    margin: auto;
 }
 .product-name{
     font-weight: 600;
     margin-top: 0.4em;
+    margin: auto;
 }
 .rate{
     color: blue;
     font-size: 1.3rem;
+    margin: auto;
+}
+.product-price{
+margin: auto;
 }
 .product-price span{
     font-weight: 600;
+   
 
 }
 .exclusive-conatiner{
