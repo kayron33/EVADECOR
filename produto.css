@@ -239,12 +239,13 @@ h1 {
 /** footer**/
 
 footer{
-    background-color: black;
+    background-image: radial-gradient(#937a5294,#F2EFEA);
+    
 }
 .footer-content{
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
     padding: 4rem 1rem;
     gap: 15rem;
     margin: auto;
@@ -265,9 +266,10 @@ footer{
 }
 .logo-footer{
     text-align: center;
+    margin-bottom: 50px;
 }
 .links-footer h3{
-    color: white;
+    color: black;
     margin-bottom: 0.8em;
 
 }
@@ -281,7 +283,7 @@ footer{
 }
 
 .copyright{
-    color: white;
+    color: black;
     padding: 2rem 0;
     text-align: center;
 }
@@ -305,6 +307,7 @@ footer{
         font-size: 0.8rem;
     }
 }
+
 
 /** footer**/
 
