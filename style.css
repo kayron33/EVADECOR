@@ -228,7 +228,7 @@ main{
 .subtitle-underline{
     width: 100px;
     height: 5px;
-    background: blue;
+    background:#937A52 ;
     border-radius: 9999px;
     margin: 8px auto 0 auto;
 }
