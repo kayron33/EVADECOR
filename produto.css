@@ -1,5 +1,12 @@
 
+:root{
+    --color-white: black ;
+    --color-dark1:#DFD8D0 ;
+    --color-dark2:#FFFFFF ;
+    --color-dark3:#F2EFEA ;
+    --color-dark4:#937A52 ;
 
+}
 
 
 body {
@@ -9,10 +16,12 @@ body {
 }
 /**menu**/
 .logo{
-    width: 100px;
+    width:54px;
     
 }
 .heder,
+    
+
 .paginas{
     display: flex;
     flex-direction: row;
@@ -20,7 +29,8 @@ body {
 
 }
 .heder{
-    background-color: white;
+    background-color: #937a5263;
+    
 
     box-shadow: 1px 1px 4px black;
     height: 6em;
@@ -76,7 +86,7 @@ font-family: 'Poppins', sans-serif;
         position: absolute;
         flex-direction: column;
         top: 0;
-        background-color: rgba(0, 0, 0, 0.438);
+        background-color: var(--color-dark3);
         height: 100%;
         width: 35vw;
         padding: 1em;
@@ -167,7 +177,7 @@ h1 {
 .buy-button {
     padding: 10px 50px;
     border: none;
-    background-color: black;
+    background-color:#937A52;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -177,7 +187,7 @@ h1 {
 }
 
 .buy-button:hover {
-    background-color: #333;
+    background-color:rgba(0, 0, 0, 0.288) ;
 }
 .dim{
     display: flex;
