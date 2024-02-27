@@ -1,3 +1,14 @@
+
+:root{
+    --color-white: black ;
+    --color-dark1:#DFD8D0 ;
+    --color-dark2:#FFFFFF ;
+    --color-dark3:#F2EFEA ;
+    --color-dark4:#937A52 ;
+
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,10 +21,12 @@ body{
 }
 /**menu do inicio**/
 .logo{
-    width: 100px;
+    width:54px;
     
 }
 .heder,
+    
+
 .paginas{
     display: flex;
     flex-direction: row;
@@ -21,7 +34,8 @@ body{
 
 }
 .heder{
-    background-color: white;
+    background-color: #937a5263;
+    
 
     box-shadow: 1px 1px 4px black;
     height: 6em;
@@ -77,7 +91,7 @@ font-family: 'Poppins', sans-serif;
         position: absolute;
         flex-direction: column;
         top: 0;
-        background-color: rgba(0, 0, 0, 0.438);
+        background-color: var(--color-dark3);
         height: 100%;
         width: 35vw;
         padding: 1em;
@@ -102,7 +116,7 @@ from{margin-left: -100vw;}
 /** parte inicial do site**/
 header{
     
-    background-image: radial-gradient(#fff,rgba(134, 45, 45, 0.185));
+    background-image: radial-gradient(#937a5294,rgba(134, 45, 45, 0.185));
 }
 .header-bottom-side{
     display: flex;
