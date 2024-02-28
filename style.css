@@ -297,6 +297,19 @@ margin: auto;
     
 }
 /** main content**/
+/**localização**/
+.fundo-color{
+    margin: auto;
+    background-image: linear-gradient();
+}
+
+
+
+
+
+
+
+/**localização**/
 /** footer**/
 
 footer{
@@ -307,7 +320,7 @@ footer{
     display: flex;
     align-items: center;
     color: black;
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     gap: 15rem;
     margin: auto;
 }
@@ -345,7 +358,7 @@ footer{
 
 .copyright{
     color: black;
-    padding: 2rem 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
