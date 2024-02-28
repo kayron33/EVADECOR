@@ -334,10 +334,22 @@ margin: auto;
     background-color: rgba(0, 0, 0, 0.438);
 }
 .loca{
-    flex-basis: 50%;
+    flex-basis: -50%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media(max-width:915px){
+    .maps iframe{
+        max-width: 410px;
+        max-height: 410px;
+    }
+}
+@media(max-width:822px){
+    .maps iframe{
+        max-width: 400px;
+        max-height: 400px;
+    }
 }
 @media(max-width:800px){
     .fundo-color{
@@ -351,6 +363,16 @@ margin: auto;
     .chamativo button{
         margin-top: 15px;
 
+    }
+    .maps iframe{
+      max-width: 300px;
+      max-height: 300px;
+    }
+}
+@media(max-width:290px){
+    .maps iframe{
+        max-width: 290px;
+        max-height: 290px;
     }
 }
    
