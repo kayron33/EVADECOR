@@ -315,7 +315,7 @@ margin: auto;
     display: flex;
     align-items: center;
     justify-self: center;
-   
+    padding: 10rem;
   background-color: #c9b39a96;
 }
 .chamativo{
@@ -370,6 +370,7 @@ margin: auto;
         flex-direction: column;
         text-align: center;
         padding-top: 4rem;
+        padding: 2rem;
     }
     .chamativo{
         margin-bottom: 15px;
