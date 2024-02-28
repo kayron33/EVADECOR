@@ -315,7 +315,8 @@ margin: auto;
     display: flex;
     align-items: center;
     justify-self: center;
-    padding: 1rem;
+    padding: 10rem;
+  background-color: #c9b39a96;
 }
 .chamativo{
     height: 100%;
@@ -410,6 +411,7 @@ footer{
     padding: 1rem 1rem;
     gap: 15rem;
     margin: auto;
+
 }
 .dowload-opitions>*{
     margin: 1rem 0;
