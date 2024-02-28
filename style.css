@@ -299,9 +299,61 @@ margin: auto;
 /** main content**/
 /**localização**/
 .fundo-color{
-    margin: auto;
-    background-image: linear-gradient();
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
 }
+.chamativo{
+    height: 100%;
+    flex-basis: 50%;
+  
+   
+}
+.chamativo h2{
+    margin-bottom:18px ;
+}
+.chamativo p{
+    font-weight: 600;
+}
+
+
+.chamativo button{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s;
+    margin-top: 16px;
+}
+.chamativo button:hover{
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.loca{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:800px){
+    .fundo-color{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 4rem;
+    }
+    .chamativo{
+        margin-bottom: 15px;
+    }
+    .chamativo button{
+        margin-top: 15px;
+
+    }
+}
+   
 
 
 
