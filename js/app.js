@@ -41,7 +41,9 @@ document.getElementById("searchForm").addEventListener("submit", function(event)
     event.preventDefault(); // Prevenir o comportamento padrão do formulário
     var query = document.getElementById("searchInput").value;
     if (query) {
-        // Redirecionar para o mecanismo de busca ou página desejada com a consulta
-        window.location.href = "https://kayron33.github.io/EVADECOR/" + encodeURIComponent(query);
+        // Redirecionar para a página de pesquisa do seu site no GitHub Pages com a consulta
+        window.location.href = "https://kayron33.github.io/EVADECOR/?q=" + encodeURIComponent(query);
+        window.location.href = "https://kayron33.github.io/EVADECOR/cortinas.html" + encodeURIComponent(query);
+        window.location.href = "https://kayron33.github.io/EVADECOR/produto.html" + encodeURIComponent(query);
     }
 });
