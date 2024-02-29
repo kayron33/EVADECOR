@@ -35,3 +35,13 @@ function proximaImg(){
 
    document.getElementById('r'+cont).checked = true
 }
+
+//barra de pesquisa//
+document.getElementById("searchForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevenir o comportamento padrão do formulário
+    var query = document.getElementById("searchInput").value;
+    if (query) {
+        // Redirecionar para o mecanismo de busca ou página desejada com a consulta
+        window.location.href = "https://www.seusite.com/pesquisa?q=" + encodeURIComponent(query);
+    }
+});
