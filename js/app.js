@@ -42,6 +42,6 @@ document.getElementById("searchForm").addEventListener("submit", function(event)
     var query = document.getElementById("searchInput").value;
     if (query) {
         // Redirecionar para o mecanismo de busca ou página desejada com a consulta
-        window.location.href = "https://www.seusite.com/pesquisa?q=" + encodeURIComponent(query);
+        window.location.href = "https://kayron33.github.io/EVADECOR/" + encodeURIComponent(query);
     }
 });
