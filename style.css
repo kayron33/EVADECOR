@@ -132,6 +132,7 @@ header{
 .header-bottom-side-left h2{
     font-size: 3.2rem;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 .header-bottom-side-left p{
     line-height: 1.5rem;
