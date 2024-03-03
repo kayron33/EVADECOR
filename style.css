@@ -474,8 +474,32 @@ footer{
 }
 
 /** footer**/
-/**barra de pesquisa**/
 
 
 
-/** footer**/
+
+/** nossa loja**/
+.nossa-loja{
+    background-color: #937a5271;
+    text-align: center;
+    align-items: center;
+
+}
+.nossa-loja-titulo{
+    padding-top: 40px;
+}
+
+.nossa-loja-video{
+    padding-top: 115px;
+}
+@media(max-width: 800px){
+iframe{
+    max-width: 300px;
+}
+}
+
+
+
+
+
+/** nossa loja**/
