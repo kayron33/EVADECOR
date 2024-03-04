@@ -492,8 +492,8 @@ footer{
 
 .nossa-loja-video video{
     padding-top: 115px;
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
 
 }
 .fotos-das-cortinas{
@@ -503,6 +503,7 @@ footer{
 .cortinas img {
    align-items: center;
    max-width: 800px;
+   border-radius: 10px;
    
    
     
