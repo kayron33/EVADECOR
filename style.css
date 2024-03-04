@@ -481,21 +481,54 @@ footer{
 /** nossa loja**/
 .nossa-loja{
     background-color: #937a5271;
-    text-align: center;
     align-items: center;
+    text-align: center;
+   
 
 }
 .nossa-loja-titulo{
     padding-top: 40px;
 }
 
-.nossa-loja-video{
+.nossa-loja-video video{
     padding-top: 115px;
+    width: 500px;
+    height: 500px;
+
 }
+.fotos-das-cortinas{
+   display: flex;
+}
+
+.cortinas img {
+   align-items: center;
+   max-width: 800px;
+   
+   
+    
+   
+    
+
+}
+img{
+    margin-bottom: 30px;
+}
+
+
+
+
 @media(max-width: 800px){
 iframe{
    width: 350px;
    height: auto;
+
+}
+.cortinas img{
+    max-width: 300px;
+}
+.nossa-loja-video video{
+    width: 300px;
+    height: 300px;
 
 }
 }
