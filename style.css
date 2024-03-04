@@ -510,7 +510,7 @@ footer{
     
 
 }
-img{
+.img-nossa{
     margin-bottom: 30px;
 }
 
@@ -523,12 +523,13 @@ iframe{
    height: auto;
 
 }
-.cortinas img{
+.cortinas .img-nossa{
     max-width: 300px;
 }
 .nossa-loja-video video{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
 
 }
 }
