@@ -187,7 +187,7 @@ h1 {
 }
 
 .buy-button:hover {
-    background-color:rgba(0, 128, 0, 0.603);
+    background-color:rgba(27, 168, 27, 0.863);
 }
 .dim{
     display: flex;

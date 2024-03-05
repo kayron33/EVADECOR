@@ -483,6 +483,7 @@ footer{
     background-color: #937a5271;
     align-items: center;
     text-align: center;
+
    
 
 }
@@ -494,10 +495,12 @@ footer{
     padding-top: 115px;
     width: 800px;
     height: 800px;
+    margin-bottom: 49px;
 
 }
-.fotos-das-cortinas{
-   display: flex;
+.fotos-das-cortinas h1{
+    margin: 42px;
+   
 }
 
 .cortinas img {
