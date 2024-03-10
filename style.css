@@ -535,6 +535,26 @@ iframe{
 
 }
 }
+@media(max-width: 1280px){
+   
+    .nossa-loja-video video{
+        width: 350px;
+        height: 350px;
+        border-radius: 15px;
+        margin-bottom: 39px;
+    
+    }
+    }
+@media(min-width: 1280px){
+   
+    .nossa-loja-video video{
+        width: 350px;
+        height: 350px;
+        border-radius: 15px;
+        margin-bottom: 39px;
+    
+    }
+    }
 
 
 
