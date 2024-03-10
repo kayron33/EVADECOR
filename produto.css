@@ -131,6 +131,7 @@ from{margin-left: -100vw;}
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.233);
     position: initial;
     
+    
 }
 
 
@@ -150,6 +151,7 @@ from{margin-left: -100vw;}
     right: 0;
     margin: 0 auto;
     width: fit-content;
+    max-width: 80px;
 }
 
 .thumbnails img {
@@ -204,13 +206,20 @@ h1 {
         max-width: 300px;
         margin: auto;
     }
+    #main-img{
+       max-width: 250px;
+       margin: 0;
+    }
     .thumbnails{
         display:grid ;
-        grid-template-columns: repeat(2,2fr);
+        grid-template-columns: repeat(1,1fr);
+        max-width: 40px;
+        margin: 0;
     }
     .main-image{
         max-width: 300px;
         margin: auto;
+        display: flex;
     }
     .details{
         max-width: 300px;
