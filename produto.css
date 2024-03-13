@@ -206,12 +206,14 @@ h1 {
 @media(max-width:800px){
     .container {
         display: inline;
-        max-width: 300px;
+        max-width: 310px;
         margin: auto;
     }
     #main-img{
        max-width: 250px;
        margin: 0;
+       border: 1px solid var(--color-dark4);
+       border-radius: 5px;
     }
     .thumbnails{
         display:grid ;
