@@ -152,13 +152,16 @@ from{margin-left: -100vw;}
     margin: 0 auto;
     width: fit-content;
     max-width: 80px;
+
 }
 
 .thumbnails img {
     max-width: 100px;
     height: auto;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 0 10px;
+    border: 2px solid var(--color-dark4);
+    border-radius: 5px;
 }
 
 .details {
@@ -215,6 +218,11 @@ h1 {
         grid-template-columns: repeat(1,1fr);
         max-width: 40px;
         margin: 0;
+    }
+    .thumbnails img{
+        margin: 10px 3px;
+
+
     }
     .main-image{
         max-width: 300px;
