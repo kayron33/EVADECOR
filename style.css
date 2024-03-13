@@ -228,7 +228,7 @@ main{
     transition: all 0.2s;
 }
 .cols>*:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
 }
 .section-title{
     text-align: center;
