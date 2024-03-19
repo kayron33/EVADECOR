@@ -212,7 +212,7 @@ h1 {
     .container {
         display: inline;
         max-width: 310px;
-        max-height: 310px;
+        max-height: 500px;
         margin: auto;
     }
     #main-img{
@@ -226,10 +226,12 @@ h1 {
         display:grid ;
         grid-template-columns: repeat(1,1fr);
         max-width: 40px;
+        max-height: 40px;
         margin: 0;
     }
     .thumbnails img{
         margin: 10px 3px;
+        max-height: 40px;
 
 
     }
