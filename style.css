@@ -254,9 +254,7 @@ main{
 }
 .product img{
     border-radius: 13px;
-    max-height: 300px;
-    display: flex;
-    align-items: center;
+    max-height: px;
     
 }
 
