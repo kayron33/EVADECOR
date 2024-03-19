@@ -116,6 +116,8 @@ from{margin-left: -100vw;}
 
 .container {
     max-width: 800px;
+    max-height: 800px;
+    
     margin: 0 auto;
     padding: 20px;
     position: relative;
@@ -130,6 +132,7 @@ from{margin-left: -100vw;}
 .main-image{
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.233);
     position: initial;
+   
     
     
 }
@@ -137,6 +140,7 @@ from{margin-left: -100vw;}
 
 .main-image img {
     width: 100%;
+    max-height: 500px;
    
 
     
@@ -152,6 +156,7 @@ from{margin-left: -100vw;}
     margin: 0 auto;
     width: fit-content;
     max-width: 80px;
+    max-height: 100px;
 
 }
 
@@ -207,10 +212,12 @@ h1 {
     .container {
         display: inline;
         max-width: 310px;
+        max-height: 310px;
         margin: auto;
     }
     #main-img{
        max-width: 250px;
+       max-height: 250px;
        margin: 0;
        border: 1px solid var(--color-dark4);
        border-radius: 5px;
