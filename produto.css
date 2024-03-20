@@ -211,8 +211,8 @@ h1 {
 @media(max-width:800px){
     .container {
         display: inline;
-        max-width: 310px;
-        max-height: 500px;
+        max-width: 300px;
+        max-height: 450px;
         margin: auto;
     }
     #main-img{
