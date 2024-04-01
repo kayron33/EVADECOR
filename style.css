@@ -408,6 +408,45 @@ color: #937A52;
 
 
 /**localização**/
+
+/**Cortinas img**/
+.cortinas-img img {
+    align-items: center;
+    display: flex;
+  
+    
+
+}
+.botao-cortinas button{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s;
+    margin: 40px;
+    
+}
+.botao-cortinas button:hover{
+    background-color: rgba(0, 0, 0, 0.438);
+}
+@media(max-width:800px){
+    .cortinas-img img{
+        max-width: 300px;
+
+    }
+
+
+}
+
+
+
+
+
+/**Cortinas img**/
 /** footer**/
 
 footer{
