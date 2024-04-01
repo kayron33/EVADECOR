@@ -213,7 +213,7 @@ main{
     gap: 1rem;
 }
 .cols-3 img{
-    max-width: 100%;
+    max-width: 200px;
 }
 .cols-4{
    
