@@ -299,6 +299,10 @@ color: #937A52;
     }
     .cols-3{
         grid-template-columns:  repeat(2, 2fr);
+        
+    }
+    .cols-3 img{
+        max-width: 150px;
     }
    
     .cols-4{
