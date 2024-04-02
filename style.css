@@ -451,7 +451,8 @@ color: #937A52;
     
 }
 .botao-cortinas button:hover{
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: var(--color-dark4)
+    ;
 }
 @media(max-width:800px){
     .cortinas-img img{
