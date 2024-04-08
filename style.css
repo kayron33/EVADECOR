@@ -50,15 +50,13 @@ body{
 .paginas{
     gap: 3em;
     z-index: 1;
-    background-image: radial-gradient(#937a523d,rgba(134, 45, 45, 0.185));
-    
+   
     
 
 }
 .paginas a{
     text-decoration: none;
     color: black;
-    
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
    
