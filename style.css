@@ -437,9 +437,17 @@ color: #937A52;
     
 
 }
-.botao-cortinas button{
+.parede-do-butao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .botao-cortinas button{
     background-color: black;
-    border: none;
+     border: none;
     cursor: pointer;
     color: white;
     padding: 0.8rem 3.8rem;
@@ -448,6 +456,8 @@ color: #937A52;
     font-size: 1rem;
     transition: all 0.2s;
     margin: 40px;
+    
+   
     
 }
 .botao-cortinas button:hover{
