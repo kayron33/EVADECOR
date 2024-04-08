@@ -184,11 +184,15 @@ width: 100%;
 height: 100%;
  border-radius: .5rem ;
  border: .1rem solid #937A52;
+ transition: 1s;
 
  
 
 }
+.header-bottom-side-right img:hover{
+transform: translateY(-5px);
 
+}
 /** media quers**/
 @media(max-width:800px){
     
