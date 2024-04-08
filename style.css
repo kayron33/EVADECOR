@@ -24,10 +24,16 @@ body{
     width:54px;
     
 }
-.heder,
-    
+#fixed{
 
-.paginas{
+
+   
+    
+  
+}
+
+
+.heder, .paginas{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,8 +64,8 @@ body{
 }
 .paginas a:hover{
     
-    border: .1rem solid #0d0d0d54;
-    border-radius: 0.2rem;
+    color: #937A52;
+    box-shadow: 0px 1px  #937a5242;
    
 }
 .inicio{
@@ -89,6 +95,12 @@ body{
 @media (max-width: 768px) { 
     .botão{
         display: block;
+    }
+    .paginas a:hover{
+    
+        color: burlywood;
+        box-shadow: 0px 1px  burlywood;
+       
     }
     
 
@@ -170,6 +182,7 @@ header{
 width: 100%;
 height: 100%;
  border-radius: .5rem ;
+ border: .1rem solid #937A52;
 
  
 
