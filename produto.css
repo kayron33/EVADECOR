@@ -116,7 +116,7 @@ from{margin-left: -100vw;}
 
 .container {
     max-width: 800px;
-    max-height: 800px;
+    max-height:800px; 
     
     margin: 0 auto;
     padding: 20px;
@@ -167,10 +167,17 @@ from{margin-left: -100vw;}
     margin: 0 10px;
     border: 2px solid var(--color-dark4);
     border-radius: 5px;
+    
 }
+
 
 .details {
     margin-top: 20px;
+    max-width: 50%;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
@@ -178,12 +185,16 @@ h1 {
     margin: auto ;
     margin-bottom: 40px; /* Ajustando a posição do título para ficar acima das miniaturas */
     gap: 30px;
+    
+    
 }
 
 .price {
     font-size: 29px;
     margin-bottom: 10px;
 }
+
+
 
 .buy-button {
     padding: 10px 50px;
@@ -194,11 +205,17 @@ h1 {
     cursor: pointer;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    margin-top: 40px;
+    margin: 40px 50px 0 0;
+    transition: 1s;
+    font-weight: 200;
+    
+    
 }
 
 .buy-button:hover {
     background-color:rgba(27, 168, 27, 0.863);
+    color: #0D0D0D;
+   
 }
 .dim{
     display: flex;
